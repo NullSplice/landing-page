@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #111
+}
+
+/* Header */
+.header {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header a:hover {
+    color: #fff;
+}
+
+/* Hero */
+.hero {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 200px;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-main {
+    margin: 0 0 8px 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    margin: 0 0 16px 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+
+.hero-image {
+    flex: 1;
+    width: 400px;
+    height: 200px;
+    background: #cccccc81;    /* grey box */
+    display: flex;               
+    justify-content: center;     /* center horizontally */
+    align-items: center;         /* center vertically */
+}
+
+.hero-image p {
+    margin: 0;                   /* remove default paragraph margin */
+    color: #333;                 /* darker text */
+    font-size: 14px;             /* small text */
+}
+
+/* Info card */
+.info {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;          /* allow wrapping to next line */
+    justify-content: center;  /* center the row */
+    gap: 60px;                /* space between cards */
+}
+
+/* Force ~4 columns on wide screens */
+.card {
+    width: 150px;             /* fixed card width */
+    /* optional: remove max-width if you had it */
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;       /* force a square shape */
+    border: 3px solid #3882f6; /* blue border */
+    border-radius: 8px;        /* rounded corners */
+    display: block;
+}
+
+.subtext {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Quote */
+.quote {
+    background: #e5e7eb;
+    padding: 40px 400px 40px 400px;
+}
+
+.quote-text {
+    font-size: 32px;   
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: start;
+    margin: 0;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
+}
+
+/* Call to action */
+.call-to-action {
+  background: #3882f6;
+  color: white;
+  margin: 50px 250px;
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action h3 {
+  margin:auto;
+}
+
+.call-to-action p {
+    margin: auto;
+}
+
+.sign-up-close {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+
+.sign-up-close:hover {
+  background: white;
+  color: #3882f6;
+}
+
+/* Footer */
+.footer {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
