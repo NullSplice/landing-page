@@ -79,16 +79,16 @@ body {
     flex: 1;
     width: 400px;
     height: 200px;
-    background: #cccccc81;    /* grey box */
+    background: #cccccc81;
     display: flex;               
-    justify-content: center;     /* center horizontally */
-    align-items: center;         /* center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-image p {
-    margin: 0;                   /* remove default paragraph margin */
-    color: #333;                 /* darker text */
-    font-size: 14px;             /* small text */
+    margin: 0;
+    color: #333;
+    font-size: 14px;
 }
 
 /* Info card */
@@ -106,22 +106,20 @@ body {
 
 .info-cards {
     display: flex;
-    flex-wrap: wrap;          /* allow wrapping to next line */
-    justify-content: center;  /* center the row */
-    gap: 60px;                /* space between cards */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
 }
 
-/* Force ~4 columns on wide screens */
 .card {
-    width: 150px;             /* fixed card width */
-    /* optional: remove max-width if you had it */
+    width: 150px;
 }
 
 .card img {
     width: 100%;
-    aspect-ratio: 1 / 1;       /* force a square shape */
-    border: 3px solid #3882f6; /* blue border */
-    border-radius: 8px;        /* rounded corners */
+    aspect-ratio: 1 / 1;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
     display: block;
 }
 
